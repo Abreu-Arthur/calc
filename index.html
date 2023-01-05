@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+        <div id="calculator">
+            <div id="result">
+                <p id="resul"></p>
+            </div>
+            <div id="options">
+                <button class="clear" onclick="limp()">C</button>
+                <button id="buttons" onclick="coloq('.')">.</button>
+                <button id="buttons" onclick="dele()">del</button>
+                <button id="buttons" onclick="coloq('/')">/</button>
+                <button id="buttons" onclick="coloq('7')">7</button>
+                <button id="buttons" onclick="coloq('8')">8</button>
+                <button id="buttons" onclick="coloq('9')">9</button>
+                <button id="buttons" onclick="coloq('*')">*</button>
+                <button id="buttons" onclick="coloq('4')">4</button>
+                <button id="buttons" onclick="coloq('5')">5</button>
+                <button id="buttons" onclick="coloq('6')">6</button>
+                <button id="buttons" onclick="coloq('-')">-</button>
+                <button id="buttons" onclick="coloq('1')">1</button>
+                <button id="buttons" onclick="coloq('2')">2</button>
+                <button id="buttons" onclick="coloq('3')">3</button>
+                <button id="buttons" onclick="coloq('+')">+</button>
+                <button id="buttons" onclick="coloq(',')">,</button>
+                <button id="buttons" onclick="coloq('0')">0</button>
+                <button class="igual" onclick="resul()">=</button>
+            </div>
+        </div>
+        <script src="./scripts.js"></script>
+</body>
+</html>
